@@ -17,3 +17,5 @@
 | LightGBM        | 97.75%    | 97.82% | 97.71%   |
 | SVM             | 96.76%    | 96.80% | 96.57%   |
 | Naive Bayes     | 79.10%    | 82.96% | 78.93%   |
+
+The dataset is highly unbalanced, so using the macro average as an observation is more meaningful.
