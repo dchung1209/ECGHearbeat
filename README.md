@@ -22,4 +22,8 @@ There are total 87554 instances for train dataset and 21892 instances for test d
 | SVM             | 96.76%    | 96.80% | 96.57%   |
 | Naive Bayes     | 79.10%    | 82.96% | 78.93%   |
 
-The dataset is highly unbalanced, so using the macro average as an observation is more meaningful.
+The dataset is highly unbalanced, so using the **macro average** as an observation is more meaningful.
+
+## Conclusion
+
+XGBoost shows the best performance while Naive Bayes shows the worst performance among machine learning algorithms. Deep Learning approaches also present the decent performance, but take relatively longer training time compared to machine learning algorithms. In fact, most tabular dataset 
