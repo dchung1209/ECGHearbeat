@@ -2,7 +2,7 @@
 
 [Dataset Download (104MB)](https://www.kaggle.com/datasets/shayanfazeli/heartbeat/download?datasetVersionNumber=1)
 
-![image](https://github.com/dchung1209/ECGHearbeat/assets/121478848/f1d6cbc6-118c-4129-ab09-15dae426cdaa)](https://www.kaggle.com/datasets/shayanfazeli/heartbeat/data)
+![image](https://github.com/dchung1209/ECGHearbeat/assets/121478848/f1d6cbc6-118c-4129-ab09-15dae426cdaa)]
 
 
 
