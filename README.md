@@ -5,8 +5,6 @@ There are total 87554 instances for train dataset and 21892 instances for test d
 
 ## How to use
 
-0 : DecisionTree, 1 : RandomForest, 2 : XGBoost, 3 : LGBM, 4 : SVM, 5 : Naive Bayes, 6 >= : Run All
-
 | Number | 0             | 1             | 2       | 3    | 4    | 5           | 6>=     |
 | ------ | ------------- | ------------- | ------- | ---- | ---- | ----------- | ------- |
 | Model  | Decision Tree | Random Forest | XGBoost | LGBM | SVM  | Naive Bayes | Run All |
@@ -33,8 +31,8 @@ Run on the command `python main.py --m="model number here" --u="dataset director
 | SVM             | 96.76%    | 96.80% | 96.57%   |
 | Naive Bayes     | 79.10%    | 82.96% | 78.93%   |
 
-The dataset is highly unbalanced, so using the **macro average** as an observation is more meaningful.
+The dataset is highly unbalanced, so using the macro average would be more meaningful for observations
 
 ## Conclusion
 
-XGBoost shows the best performance while Naive Bayes shows the worst performance among machine learning algorithms. Deep Learning approaches also present the decent performance, but take relatively longer training time compared to machine learning algorithms. In fact, most tabular dataset 
+**XGBoost** demonstrates the best performance, while **Naive Bayes** exhibits the worst performance among machine learning algorithms. Deep learning approaches also show decent performance but require relatively longer training times compared to traditional machine learning algorithms.
