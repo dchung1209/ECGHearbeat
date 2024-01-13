@@ -2,6 +2,17 @@
 ![image](https://github.com/dchung1209/ECGHearbeat/assets/121478848/f1d6cbc6-118c-4129-ab09-15dae426cdaa)
 
 There are total 87554 instances for train dataset and 21892 instances for test dataset. Each instance can be labeled 
+
+## How to use
+
+0 : DecisionTree, 1 : RandomForest, 2 : XGBoost, 3 : LGBM, 4 : SVM, 5 : Naive Bayes, 6 >= : Run All
+
+| Number | 0             | 1             | 2       | 3    | 4    | 5           | 6>=     |
+| ------ | ------------- | ------------- | ------- | ---- | ---- | ----------- | ------- |
+| Model  | Decision Tree | Random Forest | XGBoost | LGBM | SVM  | Naive Bayes | Run All |
+
+Run on the command `python main.py --m="model number here" --u="dataset directory here"`
+
 ## Results
 
 | Model/Macro Avg | Precision | Recall | F1-Score |
