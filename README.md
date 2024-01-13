@@ -7,11 +7,13 @@
   - 1: Supraventricular
   - 2: Ventricular
   - 3: Fusion of ventricular and normal
-  - 4: Unclassifiable availalbe in the dataset
+  - 4: Unclassifiable
 
-![image](https://github.com/dchung1209/ECGHearbeat/assets/121478848/16040140-77ff-466f-bd5a-e046a035f48e)
+![image](https://github.com/dchung1209/ECGHearbeat/assets/121478848/6f2c5bf4-a8f0-45ad-8159-d7e7d9cd50f8)
 
-- Total 87554 instances for train dataset and 21892 instances for test dataset
+
+- There are 87554 instances for train dataset and 21892 instances for test dataset available
+- The distribution of both datasets is highly unbalanced and skewed, yet share the same distribution
 
 ## How to use
 
