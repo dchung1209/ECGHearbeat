@@ -1,8 +1,10 @@
 # ECGHearbeat
 
-![Dataset Download](https://www.kaggle.com/datasets/shayanfazeli/heartbeat/download?datasetVersionNumber=1)
+![Dataset Download](https://www.kaggle.com/datasets/shayanfazeli/heartbeat/data)
 
-![image](https://github.com/dchung1209/ECGHearbeat/assets/121478848/f1d6cbc6-118c-4129-ab09-15dae426cdaa)
+![image](https://github.com/dchung1209/ECGHearbeat/assets/121478848/f1d6cbc6-118c-4129-ab09-15dae426cdaa)](https://www.kaggle.com/datasets/shayanfazeli/heartbeat/data)
+
+
 
 There are total 87554 instances for train dataset and 21892 instances for test dataset. Each instance can be labeled 
 
