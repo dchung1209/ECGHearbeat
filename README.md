@@ -2,6 +2,8 @@
 
 [Dataset Download (104MB)](https://www.kaggle.com/datasets/shayanfazeli/heartbeat/download?datasetVersionNumber=1)
 
+There are total 5 classes 0: Normal, 1: Supraventricular, 2: Ventricular, 3: Fusion of ventricular and normal, 4: Unclassifiable
+
 ![image](https://github.com/dchung1209/ECGHearbeat/assets/121478848/f1d6cbc6-118c-4129-ab09-15dae426cdaa)]
 
 
