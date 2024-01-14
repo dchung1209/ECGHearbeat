@@ -67,5 +67,6 @@ Run on the command `python main.py --m="model number here" --u="dataset director
 - Deep learning approaches also show decent performance but require way longer training times compared to traditional machine learning algorithms. (takes <=10 mins with A100 GPU)
   - Bi-LSTM used two stacks of (bi-LSTM) with the size of 128 (hidden size)
   - 1D CNN + LSTM was inspired by [this model](https://ieeexplore.ieee.org/document/8978926)
+  - Experiment done in [google colab](https://colab.research.google.com/drive/1OtWUMyA9tEvlKlgiwaE24HayKKdxzv0E?usp=sharing)
 
   
