@@ -25,16 +25,28 @@ Run on the command `python main.py --m="model number here" --u="dataset director
 
 ## Results
 
-| Model/Macro Avg | Precision | Recall | F1-Score |
+### Macro Average
+
+| Model | Precision | Recall | F1-Score |
 | --------------- | --------- | ------ | -------- |
 | Decision Tree   | 79.50%    | 80.25% | 79.87%   |
-| Random Forest   | 96.02%    | 80.74% | 86.94%   |
+| Random Forest   | 95.02%    | 80.74% | 86.94%   |
 | XGBoost         | 95.83%    | 86.10% | 90.33%   |
 | LightGBM        | 93.23%    | 84.78% | 88.47%   |
 | SVM             | 92.86%    | 76.36% | 82.89%   |
 | Naive Bayes     | 52.35%    | 28.10% | 30.53%   |
 
-| Model/Micro Avg | Precision | Recall | F1-Score |
+| Model | Precision | Recall | F1-Score |
+| --------------- | --------- | ------ | -------- |
+| Bi-LSTM         | 94.02%    | 86.74% | 89.99%   |
+| 1D CNN + LSTM   | 92.67%    | 90.37% | 91.40%   |
+
+
+
+
+### Weighted Average
+
+| Model | Precision | Recall | F1-Score |
 | --------------- | --------- | ------ | -------- |
 | Decision Tree   | 95.41%    | 95.38% | 95.39%   |
 | Random Forest   | 97.39%    | 97.39% | 97.22%   |
@@ -43,8 +55,17 @@ Run on the command `python main.py --m="model number here" --u="dataset director
 | SVM             | 96.76%    | 96.80% | 96.57%   |
 | Naive Bayes     | 79.10%    | 82.96% | 78.93%   |
 
-The dataset is highly unbalanced, so using the macro average would be more meaningful for observations
+| Model | Precision | Recall | F1-Score |
+| ------------------ | --------- | ------ | -------- |
+| Bi-LSTM            | 98.04%    | 98.09% | 98.01%   |
+| 1D CNN + LSTM      | 98.49%    | 98.52% | 98.49%   |
 
-## Conclusion
 
-**XGBoost** demonstrates the best performance, while **Naive Bayes** exhibits the worst performance among machine learning algorithms. Deep learning approaches also show decent performance but require relatively longer training times compared to traditional machine learning algorithms.
+- The dataset is highly unbalanced, so using the **macro average** would be more meaningful for observations
+
+- **XGBoost** demonstrates the best performance, while **Naive Bayes** exhibits the worst performance among machine learning algorithms.
+- Deep learning approaches also show decent performance but require way longer training times compared to traditional machine learning algorithms. (takes <=10 mins with A100 GPU)
+  - Bi-LSTM used two stacks of (bi-LSTM) with the size of 128 (hidden size)
+  - 1D CNN + LSTM was inspired by [this model](https://ieeexplore.ieee.org/document/8978926)
+
+  
